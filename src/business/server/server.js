@@ -12,7 +12,7 @@ class Server {
     }
     middlewares(){
         //CORS
-        const whiteList = ['http://localhost:4200'];
+        const whiteList = ['http://localhost:4200','http://127.0.0.1:5500'];
         this.app.use(cors({
             origin : whiteList
         }))

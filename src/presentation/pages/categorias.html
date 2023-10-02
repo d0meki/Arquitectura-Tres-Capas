@@ -1,0 +1,57 @@
+<div class="page-container align-center">
+    <h1>CATEGORIAS</h1>
+    <div class="container-grid">
+        <!-- Primera columna -->
+        <div class="columna1">
+            <!-- Formulario -->
+            <div class="formulario">
+                <h2>Formulario Agregar Categoria</h2>
+                <form>
+                    <ul>
+                        <li>
+                          <label for="nombre_categoria">Nombre nueva categoria:</label>
+                          <input type="text" id="nombre_categoria" name="nombre_categoria" />
+                        </li>
+                      </ul>
+                      <button type="button" onclick="enviar()">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Segunda columna -->
+        <div class="columna2">
+            <!-- Card -->
+            <div class="card">
+                <h2>Card</h2>
+                <ul>
+                    <li>
+                      <label for="name">id:</label>
+                    </li>
+                    <li>
+                      <label for="mail">nombre:</label>
+                    </li>
+                    <li>
+                      <label for="msg">fecha:</label>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Segunda fila -->
+    <div class="tabla">
+        <h2>Tabla</h2>
+        <button type="button" onclick="getTodasLasCategorias()">Todas las Categorias</button>
+        <table id="table-categiria">
+            <thead>
+                <th>id</th>
+                <th>inombre</th>
+                <th>fecha de creacion</th>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+  
+</div>
